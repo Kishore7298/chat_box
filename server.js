@@ -36,6 +36,7 @@ app.post('/messages', (req, res) => {
     });
     
 })
+//message
 
 io.on('connection', (socket) => {
     console.log('a user connected')
